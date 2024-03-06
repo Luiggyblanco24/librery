@@ -1,16 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.claseufpso.librery;
 
-/**
- *
- * @author SCIS2PC21
- */
+import InformationBooks.Information;
+
 public class Librery {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      Information dune = new Information("mesias de dune","frank herpertz" ,"ciencia ficcion" ,"1964", "disponible", "dos", "un mes", "luiggy", "6 de marzo", "6 de abril");
+        dune.saySomething(); 
+        
+        System.out.println("");
+      Information sebastian = new Information("cancion de hielo y fuego", "geor rr martin", "medieval", "1988", "no disponible", "cero", "ni un dia", "sebastian", "ni hoy ni mañana", "no se lo llevo" );
+        sebastian.saySomething();
     }
 }
